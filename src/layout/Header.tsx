@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSidebar } from "../context/SidebarContext";
-import Marquee from "@/components/marquee/Marquee";
+// import Marquee from "@/components/marquee/Marquee";
 import "./Header.css";
 
 const AppHeader: React.FC = () => {
@@ -70,7 +70,6 @@ const AppHeader: React.FC = () => {
 
         {/* CENTER — Marquee */}
         <div className="header-center">
-          <Marquee />
         </div>
 
         {/* RIGHT — Logout */}

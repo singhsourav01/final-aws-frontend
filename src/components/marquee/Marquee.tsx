@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import "./Marquee.css";
 import shivaliMarquee from "@/assets/shivali-logo.png";
 
